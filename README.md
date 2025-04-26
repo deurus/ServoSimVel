@@ -36,5 +36,6 @@ Aprovechando que estamos ante una respuesta autorregulada vamos a realizar la id
 
 ...
 
-Tenéis la información completa de la identificación y cálculo de sintonías en la entrada del blog:<br>
+Tenéis la información completa de la identificación y cálculo de sintonías en la entrada del blog:
+<br>
 https://garikoitz.info/blog/2025/04/control-de-velocidad-con-un-motor-de-corriente-continua-simulado/
