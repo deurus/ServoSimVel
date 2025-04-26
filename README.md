@@ -10,11 +10,11 @@ Se trata de un simulador desarrollado por la UNED para sus laboratorios virtuale
 <h2>El Simulador</h2>
 La interfaz es muy intuitiva. En la parte izquierda tenemos el disco graduado simulado. En la parte derecha tenemos las diferentes gráficas para ver la evolución de los parámetros y en la parte inferior tenemos los parámetros del PID y el control de la simulación. Cada vez que modificamos un parámetro la caja de texto se pone en amarillo y debemos pulsar la tecla «enter» para que tenga efecto. Ya que siempre uso unos términos específicos en todas mis maquetas PID os voy a poner la correspondencia de parámetros aunque entiendo que son muy intuitivos.
 
-· Ref = SP (Punto de consigna o SetPoint)
-· U = OP (en términos académicos la U siempre se refiere a la salida del controlador)
-· Kp = Kc (creo más acertado llamar Kc a la ganancia del controlador)
-· Posición = PV (en el control de posición)
-· Velocidad = PV (en el control de velocidad)
+· Ref = SP (Punto de consigna o SetPoint)<br>
+· U = OP (en términos académicos la U siempre se refiere a la salida del controlador)<br>
+· Kp = Kc (creo más acertado llamar Kc a la ganancia del controlador)<br>
+· Posición = PV (en el control de posición)<br>
+· Velocidad = PV (en el control de velocidad)<br>
 
 <h2>Funcionamiento</h2>
 Disponemos de un servo de 5 voltios que en su eje lleva acoplado un disco graduado entre 0 y 360 grados. El voltaje aplicado sobre el motor hace que éste gire en un sentido de forma continua pudiéndose invertir la polaridad para que el motor gire en sentido contrario. A medida que aplicamos más voltaje, más rápido gira el disco.
