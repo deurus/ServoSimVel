@@ -2,7 +2,7 @@
 
 <h2>Introducción</h2>
 Se trata de un simulador desarrollado por la UNED para sus laboratorios virtuales los cuales, nos permiten descargar y ejecutar localmente la aplicación realizada en html+javascript para practicar. El simulador está muy logrado e implementa el funcionamiento de la maqueta con bastante detalle aunque he tenido que modificar parte del código javascript ya que no funcionaba la parte de guardar los datos. Podéis probarlo aquí.
-
+<br>
 <p align="center">
   <img src="https://garikoitz.info/blog/wp-content/uploads/2025/03/DCmotor_sim-png.webp" width="450" alt="simulador">
 </p>
@@ -24,15 +24,17 @@ Atendiendo al simulador, el rango de la velocidad (PV) va de -30 a 30 º/s y el 
 
 <h3>Identificación</h3>
 Con el control en manual y en reposo introducimos un voltaje y observamos la respuesta de la velocidad. Por suerte para nosotros la velocidad muestra una respuesta de primer orden, o dicho de otro modo, estamos antes una respuesta autorregulada.
+<br>
 <p align="center">
   <img src="https://garikoitz.info/blog/wp-content/uploads/2025/03/Ident_v1-1024x512.webp" width="450" alt="identificación">
 </p>
 Aprovechando que estamos ante una respuesta autorregulada vamos a realizar la identificación del sistema mediante el método de T1 y T2 para hallar T0 y Tp. Tanto para generar la gráfica PV/OP como para la identificación he creado dos sencillos scripts de Python que os dejo en la carpeta del proyecto.
+<br>
 <p align="center">
   <img src="https://garikoitz.info/blog/wp-content/uploads/2025/03/Ident_v1_identificado-2048x1229.webp" width="450" alt="steptest">
 </p>
 
 ...
 
-Tenéis la información completa de la identificación y cálculo de sintonías en la entrada del blog:
+Tenéis la información completa de la identificación y cálculo de sintonías en la entrada del blog:<br>
 https://garikoitz.info/blog/2025/04/control-de-velocidad-con-un-motor-de-corriente-continua-simulado/
